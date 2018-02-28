@@ -8,7 +8,7 @@ namespace Aula01
         {
             for (int i = 0; i < args.Length; i++)
             {
-                Console.WriteLine(args[i]);
+                Console.WriteLine($"Argumento {i}: '{args[i]}'");
             }
         }
     }
