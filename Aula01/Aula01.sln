@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlaMundo", "OlaMundo\OlaMundo.csproj", "{6B075B35-7B50-4C6E-A0B0-B2769ADA19E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio2", "Exercicio2\Exercicio2.csproj", "{285532FA-A542-4A0B-BDD1-9DCB7C4EC430}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B075B35-7B50-4C6E-A0B0-B2769ADA19E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B075B35-7B50-4C6E-A0B0-B2769ADA19E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B075B35-7B50-4C6E-A0B0-B2769ADA19E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B075B35-7B50-4C6E-A0B0-B2769ADA19E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285532FA-A542-4A0B-BDD1-9DCB7C4EC430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285532FA-A542-4A0B-BDD1-9DCB7C4EC430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285532FA-A542-4A0B-BDD1-9DCB7C4EC430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285532FA-A542-4A0B-BDD1-9DCB7C4EC430}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {124C94EF-FE2A-4B68-8945-3AC0ACB9803D}
+	EndGlobalSection
+EndGlobal
