@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakConti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "IfExample\IfExample.csproj", "{3427F3E6-3656-4A79-A381-056F5C457B53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skynet", "Skynet\Skynet.csproj", "{FA40F1A1-E187-4F3D-97D7-00E982155580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3427F3E6-3656-4A79-A381-056F5C457B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3427F3E6-3656-4A79-A381-056F5C457B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3427F3E6-3656-4A79-A381-056F5C457B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA40F1A1-E187-4F3D-97D7-00E982155580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA40F1A1-E187-4F3D-97D7-00E982155580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA40F1A1-E187-4F3D-97D7-00E982155580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA40F1A1-E187-4F3D-97D7-00E982155580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
