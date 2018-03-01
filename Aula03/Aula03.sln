@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "IfExample\IfEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skynet", "Skynet\Skynet.csproj", "{FA40F1A1-E187-4F3D-97D7-00E982155580}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWRoles", "WoWRoles\WoWRoles.csproj", "{8978873F-3A05-4B09-BBA6-F8099F9A9016}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FA40F1A1-E187-4F3D-97D7-00E982155580}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA40F1A1-E187-4F3D-97D7-00E982155580}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA40F1A1-E187-4F3D-97D7-00E982155580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8978873F-3A05-4B09-BBA6-F8099F9A9016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8978873F-3A05-4B09-BBA6-F8099F9A9016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8978873F-3A05-4B09-BBA6-F8099F9A9016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8978873F-3A05-4B09-BBA6-F8099F9A9016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
