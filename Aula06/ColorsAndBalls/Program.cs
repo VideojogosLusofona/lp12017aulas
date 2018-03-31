@@ -8,9 +8,17 @@ namespace Aula06
     {
         static void Main(string[] args)
         {
+            // Create the red and purple colors
+            Color red = new Color(255, 0, 0);
+            Color purple = new Color(255, 0, 255);
+
             // Create two different balls of different colors and sizes.
-            Ball bigRed = new Ball(new Color(255, 0, 0), 5);
-            Ball littlePurple = new Ball(new Color(255, 0, 255), 3);
+            Ball bigRed = new Ball(red, 5);
+            Ball littlePurple = new Ball(purple, 3);
+
+            // Check individual colors of the purple color
+            Console.WriteLine(
+                $"Purple = ({purple.GetRed()}, {purple.GetGreen()}, {purple.GetBlue()})");
 
             // Throw the big red ball around a few times.
             bigRed.Throw();
