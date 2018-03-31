@@ -6,9 +6,9 @@ namespace Aula07
     {
         static void Main(string[] args)
         {
-            // Create the red and purple colors
-            Color red = new Color(255, 0, 0);
-            Color purple = new Color(255, 0, 255);
+            // Create the red and purple colors using object initializer syntax
+            Color red = new Color() { Red = 255, Green = 0, Blue = 0 };
+            Color purple = new Color() { Red = 255, Green = 0, Blue = 255 };
 
             // Create two different balls of different colors and sizes.
             Ball bigRed = new Ball(red, 5);
