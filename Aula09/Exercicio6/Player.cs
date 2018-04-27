@@ -1,29 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Interface {
-    public class Player : Character, IKeyControllable {
+namespace Aula09
+{
+    public class Player : Character, IKeyControllable
+    {
 
-        public char ReadControlKey() {
-            Console.WriteLine("Chose a direction 'N, S, W, E':");
+        public char ReadControlKey()
+        {
+            Console.WriteLine("Use WSAD to chose a direction: ");
             char cDir = Convert.ToChar(Console.ReadLine());
             return cDir;
         }
 
-        public override char Move() {
-            switch (ReadControlKey()) {
+        public override char Move()
+        {
+            switch (ReadControlKey())
+            {
                 case 'W':
                     return 'N';
                 case 'A':
-                    return 'E';
+                    return 'W';
                 case 'S':
                     return 'S';
                 case 'D':
-                    return 'D';
+                    return 'E';
                 default:
+                    // If player presses invalid key we just return North
                     return 'N';
             }
         }

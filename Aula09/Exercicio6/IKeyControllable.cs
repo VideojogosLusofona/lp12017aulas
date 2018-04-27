@@ -1,5 +1,7 @@
-﻿namespace Interface {
-    interface IKeyControllable {
+﻿namespace Aula09
+{
+    public interface IKeyControllable
+    {
         char ReadControlKey();
     }
 }

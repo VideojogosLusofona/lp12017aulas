@@ -1,30 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Interface {
-    public class NPC : Character {
+namespace Aula09
+{
+    public class NPC : Character
+    {
         Random r = new Random();
 
-        public override char Move() {
-            int rDir = r.Next(0, 3);
-            char mDir;
-            switch (rDir) {
+        public override char Move()
+        {
+            int rDir = r.Next(0, 4);
+            switch (rDir)
+            {
                 case 0:
-                    mDir = 'W';
-                    return mDir;
+                    return 'W';
                 case 1:
-                    mDir = 'E';
-                    return mDir;
+                    return 'E';
                 case 2:
-                    mDir = 'N';
-                    return mDir;
+                    return 'N';
                 case 3:
-                    mDir = 'S';
-                    return mDir;
+                    return 'S';
                 default:
+                    // We'll never get here
                     return 'N';
             }
         }
