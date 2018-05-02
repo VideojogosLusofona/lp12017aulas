@@ -42,7 +42,8 @@ namespace Aula10
             // Percorrer itens na mochila e tentar "imprimir" cada um
             for (int i = 0; i < p.BagOfStuff.StuffCount; i++)
             {
-                Console.WriteLine(p.BagOfStuff.GetThing(i));
+                IStuff aThing = p.BagOfStuff.GetThing(i);
+                Console.WriteLine(aThing);
             }
 
         }

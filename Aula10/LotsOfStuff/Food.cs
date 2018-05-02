@@ -17,7 +17,7 @@
                 // O custo da comida depende do valor inteiro dado ao tipo de comida na
                 // enumeração FoodType sobre o número de dias que a comida tem (quanto
                 // mais dias, menos vale)
-                return (int)Type / days;
+                return (int)Type / (days + 1);
             }
         }
 

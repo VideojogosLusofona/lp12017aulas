@@ -23,18 +23,21 @@
         /// <param name="bulletWeight">Peso de cada bala</param>
         /// <param name="numberOfBullets">Número inicial de balas</param>
         /// <param name="cost">Custo da arma</param>
-        public Gun(float baseWeight, float bulletWeight, int numberOfBullets, float cost)
+        public Gun(float baseWeight, float bulletWeight, int numberOfBullets, float value)
         {
             this.baseWeight = baseWeight;
             this.bulletWeight = bulletWeight;
             NumberOfBullets = numberOfBullets;
-            Value = cost;
+            Value = value;
         }
 
         /// <summary> Dispara a arma </summary>
         public void Shoot()
         {
-            NumberOfBullets--;
+            if (NumberOfBullets > 0)
+            {
+                NumberOfBullets--;
+            }
         }
     }
 
