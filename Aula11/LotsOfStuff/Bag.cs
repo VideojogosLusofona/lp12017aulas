@@ -103,7 +103,7 @@ namespace Aula11
         /// </returns>
         public override string ToString()
         {
-            return $"A mochila tem {StuffCount} itens, com um peso e valor " +
+            return $"Mochila com {StuffCount} itens e um peso e valor " +
                 $"totais de {Weight} Kg e {Value} EUR, respetivamente";
         }
     }
