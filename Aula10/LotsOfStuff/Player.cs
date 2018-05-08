@@ -27,7 +27,7 @@
         public Player(float baseWeight)
         {
             this.baseWeight = baseWeight;
-            BagOfStuff = new Bag(4);
+            BagOfStuff = new Bag(maxBagItems);
         }
     }
 }
