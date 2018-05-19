@@ -24,7 +24,7 @@ namespace Aula12
         /// </summary>
         public ItemWithKarma()
         {
-            Karma = (float)(10 * (rng.NextDouble() - 0.5));
+            Karma = (float)(20 * (rng.NextDouble() - 10));
         }
 
         /// <summary>
