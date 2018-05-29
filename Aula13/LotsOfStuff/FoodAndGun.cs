@@ -1,7 +1,7 @@
 ﻿namespace Aula13
 {
     /// <summary>
-    /// Classe que contém uma instância de Food e uma instância de Gun.
+    /// Struct que contém uma instância de Food e uma instância de Gun.
     /// </summary>
     public struct FoodAndGun
     {
@@ -16,7 +16,7 @@
         public readonly Gun gun;
 
         /// <summary>
-        /// Construtor que guarda a food e a gun.
+        /// Construtor que guarda a food e a gun na struct.
         /// </summary>
         /// <param name="food">Food a guardar.</param>
         /// <param name="gun">Gun a guardar.</param>
